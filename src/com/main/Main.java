@@ -57,5 +57,60 @@ public class Main {
         System.out.println(st2);
         System.out.println(bo1);
         System.out.println(bo2);
+        System.out.println("PrePos: ");
+        prepos();
+        System.out.println("Aritmético: ");
+        aritmetico();
+        System.out.println("Atribuição: ");
+        atribuicao();
+    }
+
+    public static void prepos(){
+        int k = 10;
+
+        int i = ++k;
+        int j = k--;
+        int x = k;
+
+        System.out.println("++k: "+i);
+        System.out.println("k--: "+j);
+        System.out.println("k: "+x);
+    }
+
+    public static void aritmetico(){
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        double d = 40;
+        double e = 50;
+
+        System.out.println("a+b: "+(a+b));
+        System.out.println("c-a: "+(c-a));
+        System.out.println("c*b: "+(c*b));
+        System.out.println("e/d: "+(e/d));
+        System.out.println("b%c: "+(b%c));
+    }
+
+    public static void atribuicao(){
+        int i = 1500;
+        short j = 15;
+        long l = 500L;
+        int k = 35;
+        float f = 3.5f;
+        double d = f;
+
+        System.out.println("d: "+d);
+
+        i += 5;
+        j -= 3;
+        d /= 2.7d;
+        l *= 3;
+        k %= 2;
+
+        System.out.println("i += 5: "+i);
+        System.out.println("j -= 3: "+j);
+        System.out.println("d /= 2.7d: "+d);
+        System.out.println("l *= 3"+l);
+        System.out.println("k %= 2"+k);
     }
 }
