@@ -12,6 +12,13 @@ public class Main {
         * Parâmetro: Na assinatura do método
         * */
 
+        /*
+        * Tipos de casting
+        * Upcast(implícito) -> para variável de tipo maior
+        * Downcast(explicito) -> para variável de tipo menor
+        * (tipo de casting) nomedocasting = (tipo do casting) npmevariável
+        * */
+
         byte b1 = 10;
         byte b2 = 10;
 
@@ -113,4 +120,5 @@ public class Main {
         System.out.println("l *= 3"+l);
         System.out.println("k %= 2"+k);
     }
+
 }
